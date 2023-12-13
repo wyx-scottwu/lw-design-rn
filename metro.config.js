@@ -2,7 +2,7 @@
 
 const { getDefaultConfig } = require('expo/metro-config');
 const path = require('path');
-const defaultConfig = getDefaultConfig(  __dirname);
+const defaultConfig = getDefaultConfig(__dirname);
 defaultConfig.resolver.resolverMainFields = [
   'sbmodern',
   ...defaultConfig.resolver.resolverMainFields,

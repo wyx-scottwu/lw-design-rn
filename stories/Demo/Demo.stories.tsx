@@ -28,4 +28,7 @@ export const AnotherExample = {
   args: {
     text: 'Another example',
   },
+  argTypes: {
+    onPress: { action: 'pressed another example' }
+  }
 };
